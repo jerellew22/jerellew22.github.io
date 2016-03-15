@@ -22,31 +22,32 @@
   chooseASport (); 
 
 function submitComent() {
-  console.log ("running")
+  alert ("under construction.")
+  // console.log ("running")
 
 
-  var name = $("#name").val();
-  var comment = $("#comment").val();
+  // var name = $("#name").val();
+  // var comment = $("#comment").val();
 
-  var data = {
-    name: name,
-    comment: comment
-  };
+  // var data = {
+  //   name: name,
+  //   comment: comment
+  // };
 
-  var ajaxInfo = {
-    url: "http://localhost:3000",
-    type: "POST",
-    dataType: "text",
-    data: JSON.stringify (data),
-    success: function (){
-      alert("success!");
-    },
-    error:function (error){
-      alert("Sorry, something went wrong.");
-    }
-  }
+  // var ajaxInfo = {
+  //   url: "http://localhost:3000",
+  //   type: "POST",
+  //   dataType: "text",
+  //   data: JSON.stringify (data),
+  //   success: function (){
+  //     alert("success!");
+  //   },
+  //   error:function (error){
+  //     alert("Sorry, something went wrong.");
+  //   }
+  // }
 
-  $.ajax(ajaxInfo);
+  // $.ajax(ajaxInfo);
 };
 
   
